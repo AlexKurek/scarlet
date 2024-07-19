@@ -3,7 +3,7 @@ import autograd.scipy as scipy
 from .bbox import Box
 from .model import Model, abstractmethod
 from .parameter import Parameter, prepare_param
-from .fft import Fourier, shift
+from .fft import shift
 
 
 def normalize(image):

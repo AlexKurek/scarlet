@@ -1,7 +1,7 @@
 import autograd.numpy as np
 
 from . import interpolation
-from .bbox import Box, overlapped_slices
+from .bbox import overlapped_slices
 from .frame import Frame
 from .renderer import Renderer, NullRenderer, ConvolutionRenderer, ResolutionRenderer
 

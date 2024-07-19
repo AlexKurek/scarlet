@@ -1,5 +1,4 @@
 import numpy as np
-from . import initialization
 from .bbox import Box
 
 

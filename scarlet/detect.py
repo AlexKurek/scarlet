@@ -4,9 +4,7 @@ import matplotlib.patches as patches
 import numpy as np
 
 from .bbox import Box, overlapped_slices
-from .interpolation import get_filter_coords, get_filter_bounds
-from .operator import prox_monotonic_mask
-from .wavelet import starlet_reconstruction, starlet_transform, get_multiresolution_support
+from .wavelet import starlet_transform, get_multiresolution_support
 
 
 logger = logging.getLogger("scarlet.detect")

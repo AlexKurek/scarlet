@@ -2,7 +2,6 @@ import numpy as np
 import logging
 
 from .bbox import Box
-from .cache import Cache
 from .renderer import NullRenderer, ConvolutionRenderer
 
 

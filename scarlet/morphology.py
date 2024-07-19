@@ -1,6 +1,5 @@
 import autograd.numpy as np
 import numpy.ma as ma
-import proxmin.operators
 from abc import abstractmethod
 
 from .bbox import Box, overlapped_slices
